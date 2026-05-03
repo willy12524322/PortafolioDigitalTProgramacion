@@ -44,7 +44,7 @@ Calcular la comisión del 4% para tres vendedores de una concesionaria con venta
 Algoritmo ComisionesVentas
 
     Definir auto1, auto2, auto3, comision1, comision2, comision3, total Como Real
-    auto1 <- 30000; auto2 <- 29000; auto3 <- 33000; porcentaje <- 0.04<img width="650" height="1188" alt="Diagrama" src="https://github.com/user-attachments/assets/11bbcc30-305b-4a15-9713-17469710e265" />
+    auto1 <- 30000; auto2 <- 29000; auto3 <- 33000; porcentaje <- 0.04
 
     comision1 <- auto1 * porcentaje
     comision2 <- auto2 * porcentaje
