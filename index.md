@@ -25,7 +25,8 @@ En esta unidad hemos explorado los conceptos base que permiten transformar una i
 *   **Diagrama de Flujo:** Representación gráfica del algoritmo mediante símbolos estandarizados (inicio, proceso, decisión, fin).
 *   **Prueba de Escritorio:** Técnica manual para verificar que la lógica del algoritmo es correcta antes de codificar.
 *   **Lenguajes de Programación:** Herramientas (como C) que permiten al computador ejecutar nuestras instrucciones.
-
+*   **Programación por Bloques:** Es una metodología que permite crear software mediante la unión de piezas visuales (bloques) que encajan entre sí. 
+    *   *Ventaja:* Permite enfocarse en la **lógica del algoritmo** sin preocuparse por los errores de sintaxis (puntos y coma, paréntesis), facilitando el aprendizaje inicial antes de pasar a lenguajes basados en texto como C.
 ---
 
 ### 2. Ejercicio Práctico: Estructura Secuencial en C
@@ -34,8 +35,8 @@ En esta unidad hemos explorado los conceptos base que permiten transformar una i
 Calcular la comisión del 4% para tres vendedores de una concesionaria con ventas de $30,000, $29,000 y $33,000 USD, y determinar el pago total conjunto.
 
 #### 🔍 Análisis del Problema
-*   **Entradas:** v1 = 30000, v2 = 29000, v3 = 33000.
-*   **Proceso:** comision = venta * 0.04.
+*   **Entradas:** auto1 = 30000, auto2 = 29000, auto3 = 33000, porcentaje = 0.04
+*   **Proceso:** comision = venta * porcentaje.
 *   **Salida:** Comisiones individuales y suma total.
 
 #### 📐 Diseño del Algoritmo (Pseudocódigo)
@@ -43,10 +44,11 @@ Calcular la comisión del 4% para tres vendedores de una concesionaria con venta
 Algoritmo ComisionesVentas
 
     Definir auto1, auto2, auto3, comision1, comision2, comision3, total Como Real
-    auto1 <- 30000; auto2 <- 29000; auto3 <- 33000
-    comision1 <- v1 * 0.04
-    comision2 <- v2 * 0.04
-    comision3 <- v3 * 0.04
+    auto1 <- 30000; auto2 <- 29000; auto3 <- 33000; porcentaje <- 0.04<img width="650" height="1188" alt="Diagrama" src="https://github.com/user-attachments/assets/11bbcc30-305b-4a15-9713-17469710e265" />
+
+    comision1 <- auto1 * porcentaje
+    comision2 <- auto2 * porcentaje
+    comision3 <- auto3 * porcentaje
     total <- c1 + c2 + c3
     Escribir "TOTAL A PAGAR EN CONJUNTO:", total
 ```
@@ -106,6 +108,8 @@ Vendedor 3 (Vehiculo 33000$):
 - Comision a pagar: 1320.00$
 ```
 ---
+#### 📊 Diseño del Algoritmo (Diagrama de Flujo)
+![Diagrama de Flujo de Comisiones](./img/Diagrama.png)
 
 ### 💡 Principales dificultades y Reflexión
 Esta unidad fue bastante rica en conocimiento, aprendí varias cosas sobre cómo programar y he de decir que me gustó bastante aprender la lógica y principios básicos de la programación. Fue un poco difícil el cambio de Pseint a Lenguaje C pero al mismo tiempo fue muy interesante ver como se requiere mayor conocimiento en computación y en códigos para adaptarse a este cambio, al mismo tiempo usar C como código de programación me abrió las puertas a una mayor libertad en la programación, debido a la complejidad del mismo, éste es mucho mas libre a la hora de programar ya que permite ajustar cada detalle lo cual me gusta mucho.
