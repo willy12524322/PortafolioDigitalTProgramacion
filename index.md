@@ -1,4 +1,3 @@
-<img width="650" height="1188" alt="Diagrama" src="https://github.com/user-attachments/assets/c7947634-d23d-4e9f-abc8-e1bbd76eefa1" />
 # Portafolio Digital de Aprendizaje - Teoría de la Programación
 
 ## 📑 Carátula
@@ -113,6 +112,7 @@ Vendedor 3 (Vehiculo 33000$):
 ---
 #### 📊 Diseño del Algoritmo (Diagrama de Flujo)
 ![Diagrama de Flujo de Comisiones](./img/diagrama.png)
+<img width="650" height="1188" alt="Diagrama" src="https://github.com/user-attachments/assets/c7947634-d23d-4e9f-abc8-e1bbd76eefa1" />
 
 ### 💡 Principales dificultades y Reflexión
 Esta unidad fue bastante rica en conocimiento, aprendí varias cosas sobre cómo programar y he de decir que me gustó bastante aprender la lógica y principios básicos de la programación. Fue un poco difícil el cambio de Pseint a Lenguaje C pero al mismo tiempo fue muy interesante ver como se requiere mayor conocimiento en computación y en códigos para adaptarse a este cambio, al mismo tiempo usar C como código de programación me abrió las puertas a una mayor libertad en la programación, debido a la complejidad del mismo, éste es mucho mas libre a la hora de programar ya que permite ajustar cada detalle lo cual me gusta mucho.
