@@ -34,8 +34,8 @@ En esta unidad hemos explorado los conceptos base que permiten transformar una i
 Calcular la comisión del 4% para tres vendedores de una concesionaria con ventas de $30,000, $29,000 y $33,000 USD, y determinar el pago total conjunto.
 
 #### 🔍 Análisis del Problema
-*   **Entradas:** `v1 = 30000`, `v2 = 29000`, `v3 = 33000`.
-*   **Proceso:** `comision = venta * 0.04`.
+*   **Entradas:** v1 = 30000, v2 = 29000, v3 = 33000.
+*   **Proceso:** comision = venta * 0.04.
 *   **Salida:** Comisiones individuales y suma total.
 
 #### 📐 Diseño del Algoritmo (Pseudocódigo)
@@ -86,8 +86,10 @@ int main() {
 
     return 0;
 }
+```
 
 #### 🧪 Validación (Prueba de Escritorio)
+```c
 Comisiones de Ventas
 
 Vendedor 1 (Vehiculo 30000$):
@@ -101,7 +103,7 @@ Vendedor 2 (Vehiculo 29000$):
 Vendedor 3 (Vehiculo 33000$):
 - Porcentaje: 4%
 - Comision a pagar: 1320.00$
-
+```
 ---
 
 ### 💡 Principales dificultades y Reflexión
@@ -110,12 +112,12 @@ Como conclusión de esta unidad, la mayor dificultad fue adaptar la lógica del 
 ---
 
 ## 📂 Unidad 2
-*Contenido disponible próximamente.*
+*En espera*
 
 ---
 
 ## 📂 Unidad 3
-*Contenido disponible próximamente.*
+*En espera*
 
 ---
 
