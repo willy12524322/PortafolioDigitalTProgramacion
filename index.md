@@ -41,6 +41,7 @@ Calcular la comisión del 4% para tres vendedores de una concesionaria con venta
 #### 📐 Diseño del Algoritmo (Pseudocódigo)
 
 Algoritmo ComisionesVentas
+
     Definir auto1, auto2, auto3, comision1, comision2, comision3, total Como Real
     auto1 <- 30000; auto2 <- 29000; auto3 <- 33000
     comision1 <- v1 * 0.04
@@ -48,9 +49,9 @@ Algoritmo ComisionesVentas
     comision3 <- v3 * 0.04
     total <- c1 + c2 + c3
     Escribir "El total a pagar es:", total
-FinAlgoritmo
 
 #### 💻 Codificación (Código Fuente en C)
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
