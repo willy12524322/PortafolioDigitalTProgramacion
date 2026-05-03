@@ -1,49 +1,51 @@
 # Portafolio Digital de Aprendizaje - Teoría de la Programación
 
-## 🎓 Carátula
-*   **Institución:** Universidad Nacional de Loja
-*   **Facultad:** Energía, las Industrias y los Recursos Naturales no Renovables
-*   **Carrera:** Computación
-*   **Asignatura:** Teoría de la Programación
-*   **Ciclo:** 1er Ciclo
-*   **Estudiante:** [Tu Nombre]
-*   **Docente:** [Nombre del Docente]
-*   **Período Académico:** 2024 - 2025
+## 📑 Carátula
+| Datos Informativos | Detalle |
+| :--- | :--- |
+| **Institución** | Universidad Nacional de Loja |
+| **Facultad** | Energía, las Industrias y los Recursos Naturales no Renovables |
+| **Carrera** | Computación |
+| **Asignatura** | Teoría de la Programación |
+| **Ciclo** | 1er Ciclo "A" |
+| **Docente** | Ing. Lissette Geoconda López Faicán |
+| **Estudiante** | Willy Ramírez |
+| **Período** | 2026 Primer Período cadémico |
 
 ---
 
-## 📂 Unidad 1: Algoritmos y Estructuras Secuenciales
+## 📂 Unidad 1: Fundamentos de Programación y Estructuras Secuenciales
 
-### 📘 Contenidos Temáticos
-1.  **Algoritmo:** Conjunto de pasos lógicos para resolver un problema.
-2.  **Pseudocódigo:** Narrativa técnica de los pasos de un algoritmo.
-3.  **Diagrama de Flujo:** Representación gráfica de la lógica.
-4.  **Lenguaje de Programación:** Herramienta para traducir la lógica a código ejecutable (Lenguaje C).
+### 1. Contenidos de la Unidad
+En esta unidad hemos explorado los conceptos base que permiten transformar una idea en una solución computacional.
 
-### 💻 Ejercicio con Estructura Secuencial
-**Problema:** Cálculo de comisiones en una concesionaria de vehículos.
+*   **Algoritmo:** Es una secuencia lógica y finita de pasos para resolver un problema.
+    *   *Ejemplo:* Pasos para calcular el área de un cuadrado.
+*   **Pseudocódigo:** Narrativa técnica similar al lenguaje humano que describe el algoritmo antes de programarlo.
+*   **Diagrama de Flujo:** Representación gráfica del algoritmo mediante símbolos estandarizados (inicio, proceso, decisión, fin).
+*   **Prueba de Escritorio:** Técnica manual para verificar que la lógica del algoritmo es correcta antes de codificar.
+*   **Lenguajes de Programación:** Herramientas (como C) que permiten al computador ejecutar nuestras instrucciones.
 
-#### 1. Planteamiento del problema
-Una concesionaria realiza tres ventas (30000, 29000 y 33000 USD). Se requiere calcular la comisión individual del 4% para cada vendedor y el pago total en conjunto.
+---
 
-#### 2. Análisis del problema
-*   **Entradas:** Costos de vehículos (`float auto1, auto2, auto3`).
-*   **Proceso:** Multiplicar cada costo por 0.04.
-*   **Salidas:** Comisiones individuales y suma total (`totalConjunto`).
+### 2. Ejercicio Práctico: Estructura Secuencial en C
 
-#### 3. Codificación (Lenguaje C)
-```c
-#include <stdio.h>
+#### 📝 Planteamiento del Problema
+Calcular la comisión del 4% para tres vendedores de una concesionaria con ventas de $30,000, $29,000 y $33,000 USD, y determinar el pago total conjunto.
 
-int main() {
-    float auto1 = 30000, auto2 = 29000, auto3 = 33000;
-    float c1, c2, c3, total;
-    
-    c1 = auto1 * 0.04;
-    c2 = auto2 * 0.04;
-    c3 = auto3 * 0.04;
-    total = c1 + c2 + c3;
+#### 🔍 Análisis del Problema
+*   **Entradas:** `v1 = 30000`, `v2 = 29000`, `v3 = 33000`.
+*   **Proceso:** `comision = venta * 0.04`.
+*   **Salida:** Comisiones individuales y suma total.
 
-    printf("Total Comisiones: %.2f USD\n", total);
-    return 0;
-}
+#### 📐 Diseño del Algoritmo (Pseudocódigo)
+```text
+Algoritmo ComisionesVentas
+    Definir v1, v2, v3, c1, c2, c3, total Como Real
+    v1 <- 30000; v2 <- 29000; v3 <- 33000
+    c1 <- v1 * 0.04
+    c2 <- v2 * 0.04
+    c3 <- v3 * 0.04
+    total <- c1 + c2 + c3
+    Escribir "El total a pagar es:", total
+FinAlgoritmo
