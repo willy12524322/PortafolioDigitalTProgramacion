@@ -49,7 +49,7 @@ Algoritmo ComisionesVentas
     comision1 <- auto1 * porcentaje
     comision2 <- auto2 * porcentaje
     comision3 <- auto3 * porcentaje
-    total <- c1 + c2 + c3
+    total <- comision1 + comision2 + comision3
     Escribir "TOTAL A PAGAR EN CONJUNTO:", total
 ```
 
@@ -94,7 +94,7 @@ int main() {
 ```
 
 #### 🧪 Validación (Prueba de Escritorio)
-```c
+```text
 Comisiones de Ventas
 
 Vendedor 1 (Vehiculo 30000$):
