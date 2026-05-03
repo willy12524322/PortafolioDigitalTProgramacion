@@ -59,9 +59,7 @@ Algoritmo ComisionesVentas
 #include <stdlib.h>
 
 int main() {
-    // Variables<img width="650" height="1188" alt="diagrama" src="https://github.com/user-attachments/assets/202cee92-a2a7-4a51-9c20-6733a3eb7b30" />
-<img width="650" height="1188" alt="Diagrama" src="https://github.com/user-attachments/assets/c8bdcbb4-159d-4ec1-9992-138f23202e38" />
-
+    // Variables
     float auto1 = 30000, auto2 = 29000, auto3 = 33000;
     float comision1, comision2, comision3, totalComisiones;
     float porcentaje = 0.04;
