@@ -9,7 +9,7 @@
 | **Asignatura** | Teoría de la Programación |
 | **Ciclo** | 1er Ciclo "A" |
 | **Docente** | Ing. Lissette Geoconda López Faicán |
-| **Estudiante** | Willy Ramírez |
+| **Estudiante** | Willy Javier Ramírez Medina |
 | **Período** | Marzo - Agosto 2026 |
 
 ---
