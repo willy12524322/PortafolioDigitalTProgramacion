@@ -39,7 +39,7 @@ Calcular la comisión del 4% para tres vendedores de una concesionaria con venta
 *   **Salida:** Comisiones individuales y suma total.
 
 #### 📐 Diseño del Algoritmo (Pseudocódigo)
-
+```
 Algoritmo ComisionesVentas
 
     Definir auto1, auto2, auto3, comision1, comision2, comision3, total Como Real
@@ -48,7 +48,8 @@ Algoritmo ComisionesVentas
     comision2 <- v2 * 0.04
     comision3 <- v3 * 0.04
     total <- c1 + c2 + c3
-    Escribir "El total a pagar es:", total
+    Escribir "TOTAL A PAGAR EN CONJUNTO:", total
+```
 
 #### 💻 Codificación (Código Fuente en C)
 ```c
@@ -107,7 +108,9 @@ Vendedor 3 (Vehiculo 33000$):
 ---
 
 ### 💡 Principales dificultades y Reflexión
-Como conclusión de esta unidad, la mayor dificultad fue adaptar la lógica del pseudocódigo a la sintaxis del lenguaje C, especialmente el uso correcto de los especificadores de formato (`%.2f`) para los decimales. Esta actividad me permitió comprender cómo las estructuras secuenciales son la base para resolver problemas financieros de manera automática y precisa.
+Esta unidad fue bastante rica en conocimiento, aprendí varias cosas sobre cómo programar y he de decir que me gustó bastante aprender la lógica y principios básicos de la programación. Fue un poco difícil el cambio de Pseint a Lenguaje C pero al mismo tiempo fue muy interesante ver como se requiere mayor conocimiento en computación y en códigos para adaptarse a este cambio, al mismo tiempo usar C como código de programación me abrió las puertas a una mayor libertad en la programación, debido a la complejidad del mismo, éste es mucho mas libre a la hora de programar ya que permite ajustar cada detalle lo cual me gusta mucho.
+Las actividades que se han ejercido en esta unidad me parecieron muy interesantes y divertidas al momento de programar, ya que me gusta tener que pensar maneras de crear un algoritmo que resuelva un problema específico, y así mismo la optimización del algoritmo.
+
 
 ---
 
