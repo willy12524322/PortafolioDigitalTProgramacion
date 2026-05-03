@@ -109,7 +109,7 @@ Vendedor 3 (Vehiculo 33000$):
 ```
 ---
 #### 📊 Diseño del Algoritmo (Diagrama de Flujo)
-<img width="650" height="1188" alt="diagrama" src="https://github.com/user-attachments/assets/21322c36-1ba5-4f32-beaf-ba94c2be2f03" />
+<img width="704" height="1160" alt="Captura" src="https://github.com/user-attachments/assets/d21b34f8-74f2-4f05-ad5e-6e5ee6c10ab3" />
 
 ---
 
