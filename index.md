@@ -17,16 +17,30 @@
 ## 📂 Unidad 1: Fundamentos de Programación y Estructuras Secuenciales
 
 ### 1. Contenidos de la Unidad
-En esta unidad hemos explorado los conceptos base que permiten transformar una idea en una solución computacional.
+En esta unidad introductoria, hemos sentado las bases del pensamiento algorítmico, explorando los pilares fundamentales que permiten transformar un problema complejo del mundo real en una solución computacional eficiente, escalable y estructurada.
 
-*   **Algoritmo:** Es una secuencia lógica y finita de pasos para resolver un problema.
-    *   *Ejemplo:* Pasos para calcular el área de un cuadrado.
-*   **Pseudocódigo:** Narrativa técnica similar al lenguaje humano que describe el algoritmo antes de programarlo.
-*   **Diagrama de Flujo:** Representación gráfica del algoritmo mediante símbolos estandarizados (inicio, proceso, decisión, fin).
-*   **Prueba de Escritorio:** Técnica manual para verificar que la lógica del algoritmo es correcta antes de codificar.
-*   **Lenguajes de Programación:** Herramientas (como C) que permiten al computador ejecutar nuestras instrucciones.
-*   **Programación por Bloques:** Es una metodología que permite crear software mediante la unión de piezas visuales (bloques) que encajan entre sí. 
-    *   *Ventaja:* Permite enfocarse en la **lógica del algoritmo** sin preocuparse por los errores de sintaxis (puntos y coma, paréntesis), facilitando el aprendizaje inicial antes de pasar a lenguajes basados en texto como C.
+*   **Algoritmo y la Lógica Computacional:** Constituye la esencia misma de la informática. Se define como un conjunto ordenado, finito y preciso de operaciones que guían la resolución de una tarea. Durante las clases, hemos enfatizado que un algoritmo de calidad debe poseer tres propiedades críticas:
+    *   **Precisión:** Cada paso debe estar claramente definido sin ambigüedades.
+    *   **Finitud:** Debe terminar tras un número determinado de pasos[cite: 1].
+    *   **Eficiencia:** El enfoque en optimizar el uso de recursos (tiempo de ejecución y memoria), un concepto vital para nuestra formación en la UNL[cite: 1].
+
+*   **Pseudocódigo (Lenguaje de Especificación):** Es una herramienta de diseño de alto nivel que utiliza una mezcla de lenguaje natural con convenciones sintácticas de programación (como `Escribir`, `Leer` o `Asignar`)[cite: 1]. Su importancia radica en que permite al programador concentrarse exclusivamente en la lógica del flujo de datos sin las distracciones de la sintaxis estricta de un compilador[cite: 1]. Actúa como el plano arquitectónico antes de levantar la estructura del código[cite: 1].
+
+*   **Diagrama de Flujo y Simbología ISO:** Es la representación gráfica del algoritmo. Para su elaboración, empleamos una simbología normalizada que permite la comunicación universal entre desarrolladores[cite: 1]:
+    *   **Terminal (Óvalo):** Indica los puntos de inicio y fin del programa[cite: 1].
+    *   **Proceso (Rectángulo):** Define operaciones aritméticas, asignaciones de valores y manipulaciones de datos internas[cite: 1].
+    *   **Entrada/Salida (Trapezoide):** Gestiona la interacción con el usuario, ya sea capturando datos por teclado o mostrando resultados por pantalla[cite: 1].
+    *   **Flujo (Flechas):** Determinan la dirección lógica de ejecución, que en esta unidad ha sido estrictamente secuencial[cite: 1].
+
+*   **Prueba de Escritorio (Validación Manual):** Actúa como un proceso de depuración (debugging) preventivo[cite: 1]. Consiste en ejecutar el algoritmo mentalmente o en papel, utilizando una tabla de seguimiento para registrar los cambios en los estados de las variables en cada paso[cite: 1]. Es una práctica académica indispensable para detectar errores de lógica y garantizar la fiabilidad del software antes de ser procesado por el computador[cite: 1].
+
+*   **Lenguajes de Programación y el Ecosistema C:** Hemos iniciado la transición hacia lenguajes de propósito general, específicamente el lenguaje **C**[cite: 1]. A diferencia del pseudocódigo, la implementación en C exige un rigor técnico absoluto:
+    *   **Directivas de Preprocesamiento:** El uso de `#include <stdio.h>` para gestionar la entrada y salida estándar[cite: 1].
+    *   **Tipado de Datos:** La necesidad de definir si una variable es entera (`int`), decimal (`float`) o de carácter (`char`), optimizando así la gestión de memoria[cite: 1].
+    *   **Sintaxis Estricta:** El uso obligatorio de llaves `{}` para delimitar bloques y el punto y coma (`;`) para finalizar sentencias[cite: 1].
+
+*   **Programación por Bloques y Abstracción:** Representa un enfoque pedagógico visual donde la lógica se construye mediante el ensamblaje de piezas gráficas que representan estructuras de control[cite: 1]. 
+    *   **Importancia Educativa:** Esta metodología nos ha permitido desarrollar "Pensamiento Computacional"[cite: 1]. Al eliminar el riesgo de errores tipográficos o sintácticos, podemos centrarnos en conceptos abstractos de alto nivel, lo que facilita enormemente la comprensión de la lógica necesaria antes de abordar la codificación textual compleja en proyectos de mayor envergadura[cite: 1].
 ---
 
 ### 2. Ejercicio Práctico: Estructura Secuencial en C
