@@ -106,21 +106,19 @@ int main() {
 ```
 
 #### 🧪 Validación (Prueba de Escritorio)
-```text
-Comisiones de Ventas
 
-Vendedor 1 (Vehiculo 30000$):
-- Porcentaje: 4%
-- Comision a pagar: 1200.00$
+La prueba de escritorio permite verificar la exactitud de la lógica secuencial implementada, siguiendo el flujo de asignación y cálculo de variables de manera manual.
 
-Vendedor 2 (Vehiculo 29000$):
-- Porcentaje: 4%
-- Comision a pagar: 1160.00$
-
-Vendedor 3 (Vehiculo 33000$):
-- Porcentaje: 4%
-- Comision a pagar: 1320.00$
-```
+| Paso | Instrucción / Acción | auto1 ($) | auto2 ($) | auto3 ($) | comision1 | comision2 | comision3 | totalComisiones | Salida por Pantalla |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| 1 | Inicio del Programa | - | - | - | - | - | - | - | (Ejecución iniciada) |
+| 2 | Asignación de Entradas | 30000 | 29000 | 33000 | - | - | - | - | - |
+| 3 | Cálculo Comisión 1 (4%) | 30000 | 29000 | 33000 | 1200.00 | - | - | - | - |
+| 4 | Cálculo Comisión 2 (4%) | 30000 | 29000 | 33000 | 1200.00 | 1160.00 | - | - | - |
+| 5 | Cálculo Comisión 3 (4%) | 30000 | 29000 | 33000 | 1200.00 | 1160.00 | 1320.00 | - | - |
+| 6 | Suma Total Comisiones | 30000 | 29000 | 33000 | 1200.00 | 1160.00 | 1320.00 | **3680.00** | - |
+| 7 | Impresión de Resultados | 30000 | 29000 | 33000 | 1200.00 | 1160.00 | 1320.00 | 3680.00 | **TOTAL A PAGAR: 3680.00$** |
+| 8 | Fin del Programa | 30000 | 29000 | 33000 | 1200.00 | 1160.00 | 1320.00 | 3680.00 | (Proceso finalizado) |
 ---
 #### 📊 Diseño del Algoritmo (Diagrama de Flujo)
 <img width="704" height="1160" alt="Captura" src="https://github.com/user-attachments/assets/d21b34f8-74f2-4f05-ad5e-6e5ee6c10ab3" />
