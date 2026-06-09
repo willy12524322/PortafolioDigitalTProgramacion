@@ -10,9 +10,10 @@ Las estructuras condicionales permiten bifurcar el flujo de ejecución de un pro
 3. **Condicional Anidada (`if-else if-else` / Si-Sino-Si):** Permite evaluar múltiples condiciones en cascada de manera secuencial.
 4. **Condicional Múltiple (`switch` / Según sea):** Evalúa una variable con base en múltiples casos o valores constantes posibles.
 
-### Estructura en Pseudocódigo
+### Estructuras
 
-#### Condicional Simple
+### Condicional Simple
+#### Pseudocódigo
 ```pseudocodigo
 Si (condición) Entonces
     // Bloque de instrucciones si es verdadero
@@ -20,7 +21,7 @@ FinSi
 
 ```
 
-### Estructura en Diagrama de Flujo
+#### Diagrama de Flujo
 <img width="520" height="346" alt="image" src="https://github.com/user-attachments/assets/3e75be79-71a6-452a-9e3d-9fd037c9322e" />
 
 #### Condicional Compuesta
