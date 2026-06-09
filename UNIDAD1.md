@@ -1,6 +1,6 @@
 
 
-## 📂 Unidad 1: Fundamentos de Programación y Estructuras Secuenciales
+# 📂 Unidad 1: Fundamentos de Programación y Estructuras Secuenciales
 
 ### 1. Contenidos de la Unidad
 En esta unidad introductoria, hemos sentado las bases del pensamiento algorítmico, explorando los pilares fundamentales que permiten transformar un problema complejo del mundo real en una solución computacional eficiente, escalable y estructurada.
