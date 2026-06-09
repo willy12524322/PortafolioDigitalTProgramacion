@@ -21,13 +21,13 @@
 Seleccione una unidad para explorar las actividades prácticas, códigos fuentes e informes correspondientes:
 
 * ### [📂 Unidad 1](./UNIDAD1.md)
-    *Contenidos, laboratorios y ejercicios prácticos de la primera unidad.*
+
 
 * ### [📂 Unidad 2](./UNIDAD2.md)
-    *En espera de desarrollo y carga de actividades.*
+
 
 * ### [📂 Unidad 3](./UNIDAD3.md)
-    *En espera de desarrollo y carga de actividades.*
+
 
 ---
 
