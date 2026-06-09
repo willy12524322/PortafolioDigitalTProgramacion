@@ -1,5 +1,4 @@
-
-# Unidad 2
+# 📂 Unidad 2: Estructuras condicionales y Bucles repetitivos.
 
 ---
 
