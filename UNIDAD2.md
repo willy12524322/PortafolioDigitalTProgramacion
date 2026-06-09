@@ -190,16 +190,16 @@ A continuación se presenta la simulación del comportamiento del algoritmo recr
 | --- | --- | --- | --- | --- | --- |
 | **Caso 1: Clave Incorrecta (Bloqueo)** |  |  |  |  |  |
 | **0** | --- | 2 | --- | --- | Inicialización de variables |
-| **1** | 9999 | 2 | $V \ \&\& \ V$ (Verdadero) | --- | "Bienvenido usuario..." -> Ingresa 9999 |
+| **1** | 9999 | 2 | V && V (Verdadero) | --- | "Bienvenido usuario..." -> Ingresa 9999 |
 | **2** | --- | 1 | --- | --- | "codigo incorrecto, tiene 2 intentos..." -> Disminuye intento |
-| **3** | 8888 | 1 | $V \ \&\& \ V$ (Verdadero) | --- | Lee nuevo código: 8888 |
+| **3** | 8888 | 1 | V && V (Verdadero) | --- | Lee nuevo código: 8888 |
 | **4** | --- | 0 | --- | --- | "codigo incorrecto, tiene 1 intentos..." -> Disminuye intento |
-| **5** | 7777 | 0 | $V \ \&\& \ F$ (Falso) | --- | Lee nuevo código: 7777 -> Rompe Bucle |
+| **5** | 7777 | 0 | V && F (Falso) | --- | Lee nuevo código: 7777 -> Rompe Bucle |
 | **6** | --- | 0 | --- | Verdadero | Evalúa IF -> "Codigo incorrecto, Intentelo nuevamente..." |
 | **Caso 2: Clave Correcta al reintento** |  |  |  |  |  |
-| **1** | 5555 | 2 | $V \ \&\& \ V$ (Verdadero) | --- | Lee 5555. Entra al bucle. |
+| **1** | 5555 | 2 | V && V (Verdadero) | --- | Lee 5555. Entra al bucle. |
 | **2** | --- | 1 | --- | --- | "codigo incorrecto..." -> Baja intentos a 1 |
-| **3** | 1234 | 1 | $F \ \&\& \ V$ (Falso) | --- | Lee nuevo código: 1234 -> Rompe Bucle |
+| **3** | 1234 | 1 | F && V (Falso) | --- | Lee nuevo código: 1234 -> Rompe Bucle |
 | **4** | --- | 1 | --- | Falso | Evalúa IF (Falso) -> Salta al ELSE -> "Codigo correcto..." |
 
 ---
