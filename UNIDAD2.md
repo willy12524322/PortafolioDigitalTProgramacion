@@ -1,7 +1,5 @@
 # 📂 Unidad 2: Estructuras condicionales y Bucles repetitivos.
 
----
-
 ## 1. Estructuras Condicionales
 
 Las estructuras condicionales permiten bifurcar el flujo de ejecución de un programa basándose en el cumplimiento o no de una condición lógica (evaluación booleana: verdadero o falso).
