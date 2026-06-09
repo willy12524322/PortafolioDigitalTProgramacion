@@ -109,52 +109,46 @@ FinPara
 
 ## *[Espacio reservado para insertar tu Diagrama de Flujo de Estructuras Repetitivas diseñado en draw.io]*
 
-## 3. Ejercicio Integrador (Estructura Condicional y Repetitiva en Lenguaje C)
+## 🚀 3. Ejercicio Integrador (Estructura Condicional y Repetitiva en Lenguaje C)
 
 ### 3.1. Planteamiento del Problema
 
-Una empresa de logística requiere un sistema automatizado para gestionar el peso de los paquetes que se cargan en un camión de despacho. El camión tiene una capacidad máxima de carga de **500 kg**. El sistema debe permitir al operario registrar el peso de los paquetes uno por uno de forma continua.
+Se requiere desarrollar un sistema de control de acceso básico para una plataforma informática. El programa debe solicitar al usuario un código único de acceso.
 
-El programa debe cumplir con las siguientes reglas de negocio:
+El programa debe cumplir con las siguientes **reglas de negocio**:
 
-1. Si se ingresa un peso negativo o igual a cero, debe mostrar un mensaje de error y solicitar de nuevo el valor sin acumularlo.
-2. Si un paquete individual supera los **150 kg**, el sistema debe rechazarlo inmediatamente por motivos de seguridad industrial (exceso de peso por bulto) y permitir continuar con el siguiente paquete.
-3. El proceso de carga finaliza automáticamente en el momento exacto en que la suma de los paquetes aceptados iguale o supere el límite de **500 kg**.
-4. Al finalizar, el programa debe desplegar:
-* El peso total acumulado final en el camión.
-* La cantidad total de paquetes aceptados.
-* El promedio de peso de los paquetes aceptados.
-
-
+* El código correcto y único de acceso es `1234`.
+* Si el usuario ingresa el código incorrecto, el sistema le otorgará un máximo de 2 intentos adicionales para corregirlo.
+* El ciclo de solicitud se repetirá **mientras** el código ingresado sea incorrecto **y** el usuario aún disponga de intentos.
+* Si el usuario agota los intentos sin ingresar la clave correcta, se mostrará un mensaje de denegación solicitando que lo intente en otro momento.
+* Si introduce el código correcto en cualquiera de las oportunidades, se le otorgará un mensaje de bienvenida y se dará acceso al sistema.
 
 ### 3.2. Análisis del Problema
 
 * **Datos de Entrada:**
-* Peso de cada paquete (`peso` - real/float).
+* Código de acceso ingresado por el usuario (`codigo` - entero/int).
 
 
 * **Datos de Salida:**
-* Peso total acumulado (`peso_total` - real/float).
-* Cantidad de paquetes aceptados (`contador_paquetes` - entero/int).
-* Promedio de peso (`promedio_peso` - real/float).
+* Mensaje de éxito/bienvenida o mensaje de error/bloqueo por pantalla.
 
 
 * **Variables de Control y Constantes:**
-* LÍMITE_CAMION = 500.0 (Constante)
-* LÍMITE_PAQUETE = 150.0 (Constante)
+* `intentos` = 2 (Variable entera contador/decremental).
+* Clave esperada implicitamente = `1234`.
 
 
 * **Proceso Lógico:**
-* Se requiere un ciclo repetitivo de tipo `while` o `do-while` que se ejecute mientras `peso_total < 500`.
-* Dentro del bucle, se implementa una estructura condicional simple para validar que el peso sea mayor a 0.
-* Se anida una estructura condicional compuesta para evaluar si el paquete cumple con la norma de seguridad ($\le 150$ kg) o si es rechazado ($> 150$ kg).
-* Si el paquete es válido, se suma al acumulador y se incrementa el contador.
+1. Se solicita el primer código de acceso en la entrada general.
+2. Se evalúa un ciclo repetitivo `while` con la condición compuesta: `codigo != 1234 && intentos > 0`.
+3. Dentro del ciclo, se notifica el error, se reduce la variable `intentos` en 1 unidad y se vuelve a leer el código.
+4. Al salir del bucle, se valida mediante una estructura condicional compuesta `if-else` si la salida fue por intentos agotados (`codigo != 1234`) o por éxito, mostrando el resultado correspondiente.
 
 
 
 ### 3.3. Diseño del Algoritmo (Diagrama de Flujo)
 
-*[Espacio reservado para insertar el Diagrama de Flujo del Ejercicio Integrador diseñado en draw.io]*
+> 🗺️ **[Espacio reservado para insertar el Diagrama de Flujo del Ejercicio Integrador diseñado en draw.io]**
 
 ### 3.4. Codificación (Código Fuente en C)
 
@@ -162,57 +156,26 @@ El programa debe cumplir con las siguientes reglas de negocio:
 #include <stdio.h>
 
 int main() {
-    // Declaración de variables e inicialización
-    float peso = 0.0;
-    float peso_total = 0.0;
-    int contador_paquetes = 0;
-    float promedio_peso = 0.0;
-    
-    const float LIMITE_CAMION = 500.0;
-    const float LIMITE_PAQUETE = 150.0;
+    // Definición de variables
+    int codigo, intentos = 2; 
 
-    printf("===================================================\n");
-    printf("   SISTEMA DE CONTROL DE CARGA - LOGISTICA S.A.    \n");
-    printf("===================================================\n");
-    printf("Capacidad maxima del camion: %.2f kg\n", LIMITE_CAMION);
-    printf("Peso maximo permitido por paquete: %.2f kg\n\n", LIMITE_PAQUETE);
+    // Entrada
+    printf("Bienvenido usuario, por favor ingrese codigo de acceso unico\n");
+    scanf("%i", &codigo);
 
-    // Estructura repetitiva (Ciclo Mientras)
-    while (peso_total < LIMITE_CAMION) {
-        printf("Ingrese el peso del paquete #%d (en kg): ", contador_paquetes + 1);
-        scanf("%f", &peso);
+    // Proceso
+    while (codigo != 1234 && intentos > 0) {
+        printf("codigo incorrecto, tiene %i intentos restantes\n", intentos);
+        intentos--;
+        scanf("%i", &codigo);
+    } 
 
-        // Estructura condicional para validar entrada de datos
-        if (peso <= 0) {
-            printf("[ERROR] El peso debe ser un valor positivo mayor a cero.\n\n");
-            continue; // Salta el resto del ciclo y pide un nuevo peso
-        }
-
-        // Estructura condicional para reglas de negocio
-        if (peso > LIMITE_PAQUETE) {
-            printf("[RECHAZADO] El paquete excede los %.2f kg permitidos por seguridad.\n\n", LIMITE_PAQUETE);
-        } else {
-            // El paquete cumple con todos los criterios y es aceptado
-            peso_total += peso;
-            contador_paquetes++;
-            printf("[ACEPTADO] Peso actual en el camion: %.2f / %.2f kg\n\n", peso_total, LIMITE_CAMION);
-        }
+    if (codigo != 1234) {
+        printf(" Codigo incorrecto, Intentelo nuevamente en otro momento \n");
+    } else {
+        // Salida
+        printf("Codigo correcto, bienvenido usuario\n ");
     }
-
-    // Cálculo del promedio (Condicional para evitar división por cero si fuera el caso)
-    if (contador_paquetes > 0) {
-        promedio_peso = peso_total / contador_paquetes;
-    }
-
-    // Despliegue de resultados finales
-    printf("===================================================\n");
-    printf("               RESUMEN DE DESPACHO                 \n");
-    printf("===================================================\n");
-    printf("Carga total del camion: %.2f kg\n", peso_total);
-    printf("Total de paquetes procesados y aprobados: %d\n", contador_paquetes);
-    printf("Peso promedio por paquete aceptado: %.2f kg\n", promedio_peso);
-    printf("Estado del camion: Listo para salida en ruta.\n");
-    printf("===================================================\n");
 
     return 0;
 }
@@ -221,37 +184,39 @@ int main() {
 
 ### 3.5. Validación (Prueba de Escritorio)
 
-A continuación se presenta la tabla de seguimiento manual del algoritmo simulando una ejecución real con diferentes valores críticos de entrada (valores normales, inválidos y límites).
+A continuación se presenta la simulación del comportamiento del algoritmo recreando dos escenarios típicos de ejecución (Acceso fallido y Acceso exitoso al segundo intento).
 
-| Paso | Variable `peso` (Entrada) | Condición (`peso <= 0`) | Condición (`peso > 150`) | Condición Bucle (`peso_total < 500`) | Acumulador `peso_total` | Contador `contador_paquetes` | Salida en Pantalla / Estado |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | - | - | - | $0.0 < 500.0$ (Verdadero) | 0.0 | 0 | Inicialización del programa |
-| 1 | 120.0 | Falso | Falso | $120.0 < 500.0$ (Verdadero) | 120.0 | 1 | [ACEPTADO] Carga: 120.0 kg |
-| 2 | -10.0 | Verdadero | - | $120.0 < 500.0$ (Verdadero) | 120.0 | 1 | [ERROR] Valor inválido |
-| 3 | 180.0 | Falso | Verdadero | $120.0 < 500.0$ (Verdadero) | 120.0 | 1 | [RECHAZADO] Excede límite |
-| 4 | 140.0 | Falso | Falso | $260.0 < 500.0$ (Verdadero) | 260.0 | 2 | [ACEPTADO] Carga: 260.0 kg |
-| 5 | 110.0 | Falso | Falso | $370.0 < 500.0$ (Verdadero) | 370.0 | 3 | [ACEPTADO] Carga: 370.0 kg |
-| 6 | 135.0 | Falso | Falso | $505.0 < 500.0$ (Falso) | 505.0 | 4 | [ACEPTADO] Fin del ciclo |
-
-**Resultados calculados post-ciclo:**
-
-* `promedio_peso` = $505.0 / 4 = 126.25$ kg.
+| Paso | Variable `codigo` (Entrada) | Variable `intentos` | Condición Bucle (`codigo!=1234 && intentos>0`) | Condición Final (`codigo != 1234`) | Salida en Pantalla / Estado |
+| --- | --- | --- | --- | --- | --- |
+| **Caso 1: Clave Incorrecta (Bloqueo)** |  |  |  |  |  |
+| **0** | --- | 2 | --- | --- | Inicialización de variables |
+| **1** | 9999 | 2 | $V \ \&\& \ V$ (Verdadero) | --- | "Bienvenido usuario..." -> Ingresa 9999 |
+| **2** | --- | 1 | --- | --- | "codigo incorrecto, tiene 2 intentos..." -> Disminuye intento |
+| **3** | 8888 | 1 | $V \ \&\& \ V$ (Verdadero) | --- | Lee nuevo código: 8888 |
+| **4** | --- | 0 | --- | --- | "codigo incorrecto, tiene 1 intentos..." -> Disminuye intento |
+| **5** | 7777 | 0 | $V \ \&\& \ F$ (Falso) | --- | Lee nuevo código: 7777 -> Rompe Bucle |
+| **6** | --- | 0 | --- | Verdadero | Evalúa IF -> "Codigo incorrecto, Intentelo nuevamente..." |
+| **Caso 2: Clave Correcta al reintento** |  |  |  |  |  |
+| **1** | 5555 | 2 | $V \ \&\& \ V$ (Verdadero) | --- | Lee 5555. Entra al bucle. |
+| **2** | --- | 1 | --- | --- | "codigo incorrecto..." -> Baja intentos a 1 |
+| **3** | 1234 | 1 | $F \ \&\& \ V$ (Falso) | --- | Lee nuevo código: 1234 -> Rompe Bucle |
+| **4** | --- | 1 | --- | Falso | Evalúa IF (Falso) -> Salta al ELSE -> "Codigo correcto..." |
 
 ---
 
-## 4. Principales Dificultades y Reflexión Crítica
+## 🧠 4. Principales Dificultades y Reflexión Crítica
 
-### Principales Dificultades Encontradas
+### ❌ Principales Dificultades Encontradas
 
-1. **Lógica de Validación de Datos de Entrada:** Al principio, el diseño permitía que valores erróneos (como pesos negativos) incrementaran el contador o alteraran el flujo lógico. Se solventó implementando la sentencia de salto controlado `continue` combinada con condicionales anidadas.
-2. **Control Extremo de Ciclos:** Sincronizar el momento exacto en el que la carga alcanza los 500 kg sin generar bucles infinitos requirió un análisis riguroso de los operadores relacionales de comparación (`<` vs `<=`).
-3. **Manejo de Tipos de Datos:** El cálculo del promedio requirió una gestión estricta de variables de tipo flotante (`float`) para evitar pérdidas de precisión matemática e impedir errores de división por cero mediante filtros de exclusión preventiva.
+1. **Lógica de Condición Compuesta en Bucles:** El manejo de operadores lógicos relacionales y booleanos (operador `&&`) requirió un análisis preciso, asegurando que el ciclo terminara inmediatamente si cualquiera de las dos condiciones dejaba de cumplirse.
+2. **Sincronización del Decremento y Lectura:** Controlar el orden en el que se reduce el contador (`intentos--`) y el momento en el que el usuario digita el nuevo dato fue clave para evitar desfasar el número real de intentos mostrados en los mensajes informativos.
+3. **Validación del Estado Post-Bucle:** Comprender que al salir del ciclo se requiere una condicional extra (`if (codigo != 1234)`) para discernir exactamente el motivo de la salida (si fue por código exitoso final o por agotamiento de intentos).
 
-### Reflexión Crítica sobre el Aprendizaje
+### 📝 Reflexión Crítica sobre el Aprendizaje
 
 El estudio y aplicación práctica de las estructuras condicionales y repetitivas constituye la piedra angular del desarrollo de software estructurado y la resolución algorítmica de problemas. Estas estructuras permiten transformar un código estático y lineal en un sistema inteligente, dinámico y capaz de tomar decisiones autónomas basadas en datos en tiempo real.
 
-La integración de herramientas como **draw.io** para el modelado visual junto con la codificación en **lenguaje C** ayuda a cerrar la brecha entre el pensamiento conceptual-analítico y la implementación tecnológica rígida. Diseñar un algoritmo robusto nos enseña que la programación no se limita a escribir sintaxis, sino a prever comportamientos, estructurar soluciones eficientes y blindar los sistemas contra fallas mediante validaciones exhaustivas. Este aprendizaje consolida mi perfil técnico al aportarme un enfoque lógico, modular y altamente estructurado para resolver problemas complejos de la ingeniería de software en mi futuro formativo y profesional.
+La integración de herramientas como draw.io para el modelado visual junto con la codificación en lenguaje C ayuda a cerrar la brecha entre el pensamiento conceptual-analítico y la implementación tecnológica rígida. Diseñar un algoritmo robusto nos enseña que la programación no se limita a escribir sintaxis, sino a prever comportamientos, estructurar soluciones eficientes y blindar los sistemas contra fallas mediante validaciones exhaustivas. Este aprendizaje consolida mi perfil técnico al aportarme un enfoque lógico, modular y altamente estructurado para resolver problemas complejos de la ingeniería de software en mi futuro formativo y profesional.
 
 ```
 
