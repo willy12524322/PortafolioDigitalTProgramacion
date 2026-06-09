@@ -18,7 +18,7 @@
 
 ## 🗂️ Contenidos del Portafolio
 
-Selecciona una unidad para explorar las actividades prácticas, códigos fuentes e informes correspondientes:
+Seleccione una unidad para explorar las actividades prácticas, códigos fuentes e informes correspondientes:
 
 * ### [📂 Unidad 1](./UNIDAD1.md)
     *Contenidos, laboratorios y ejercicios prácticos de la primera unidad.*
