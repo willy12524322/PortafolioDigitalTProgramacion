@@ -20,6 +20,9 @@ FinSi
 
 ```
 
+### Estructura en Diagrama de Flujo
+<img width="520" height="346" alt="image" src="https://github.com/user-attachments/assets/3e75be79-71a6-452a-9e3d-9fd037c9322e" />
+
 #### Condicional Compuesta
 
 ```pseudocodigo
@@ -60,9 +63,6 @@ FinSegún
 
 ```
 
-### Estructura en Diagrama de Flujo (draw.io)
-
-## *[Espacio reservado para insertar tu Diagrama de Flujo de Estructuras Condicionales diseñado en draw.io]*
 
 ## 2. Estructuras Repetitivas
 
