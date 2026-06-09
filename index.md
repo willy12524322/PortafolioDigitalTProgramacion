@@ -1,18 +1,4 @@
-# Portafolio Digital de Aprendizaje - Teoría de la Programación
 
-## 📑 Carátula
-| Datos Informativos | Detalle |
-| :--- | :--- |
-| **Institución** | Universidad Nacional de Loja |
-| **Facultad** | Energía, las Industrias y los Recursos Naturales no Renovables |
-| **Carrera** | Computación |
-| **Asignatura** | Teoría de la Programación |
-| **Ciclo** | 1er Ciclo "A" |
-| **Docente** | Ing. Lissette Geoconda López Faicán |
-| **Estudiante** | Willy Javier Ramírez Medina |
-| **Período** | Marzo - Agosto 2026 |
-
----
 
 ## 📂 Unidad 1: Fundamentos de Programación y Estructuras Secuenciales
 
@@ -128,24 +114,3 @@ La prueba de escritorio permite verificar la exactitud de la lógica secuencial 
 ### 💡 Principales dificultades y Reflexión
 Esta unidad fue bastante rica en conocimiento, aprendí varias cosas sobre cómo programar y he de decir que me gustó bastante aprender la lógica y principios básicos de la programación. Fue un poco difícil el cambio de Pseint a Lenguaje C pero al mismo tiempo fue muy interesante ver como se requiere mayor conocimiento en computación y en códigos para adaptarse a este cambio, al mismo tiempo usar C como código de programación me abrió las puertas a una mayor libertad en la programación, debido a la complejidad del mismo, éste es mucho mas libre a la hora de programar ya que permite ajustar cada detalle lo cual me gusta mucho.
 Las actividades que se han ejercido en esta unidad me parecieron muy interesantes y divertidas al momento de programar, ya que me gusta tener que pensar maneras de crear un algoritmo que resuelva un problema específico, y así mismo la optimización del algoritmo.
-
-
----
-
-## 📂 Unidad 2
-*En espera*
-
----
-
-## 📂 Unidad 3
-*En espera*
-
----
-
-## 🤖 Declaración de uso de IA Generativa
-Para la creación de este portafolio se utilizó **Gemini (Google)** como tutor de acompañamiento para el manejo de **Markdown** en GitHub y como recurso de refuerzo para consolidar los contenidos de programación secuencial trabajados en clase[cite: 1].
-
----
-
-## 📚 Bibliografía (Formato IEEE)
-[1] L. Joyanes Aguilar, *Fundamentos de Programación*, 5.ª ed. México: McGraw-Hill, 2020.[cite: 1]
