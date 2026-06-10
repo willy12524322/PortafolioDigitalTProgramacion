@@ -52,7 +52,7 @@ FinSi
 ```
 
 #### Diagrama de Flujo
-<img width="928" height="745" alt="image" src="https://github.com/user-attachments/assets/2334c0f5-83f5-408a-a87f-deaf32fa2848" />
+<img width="410" height="326" alt="blee" src="https://github.com/user-attachments/assets/d78f6914-55cc-4cea-a6d3-a3e215994d9e" />
 
 
 ### Condicional Multiple
