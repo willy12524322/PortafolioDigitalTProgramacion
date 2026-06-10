@@ -34,8 +34,12 @@ FinSi
 
 ```
 
-#### Condicional Anidada
+#### Diagrama de Flujo
+<img width="553" height="330" alt="image" src="https://github.com/user-attachments/assets/e8b2d661-d246-4bdf-9e77-0961a62e7060" />
 
+
+### Condicional Anidada
+#### Pseudocódigo
 ```pseudocodigo
 Si (condición_1) Entonces
     // Instrucciones 1
@@ -47,9 +51,20 @@ FinSi
 
 ```
 
-#### Condicional Múltiple
+#### Diagrama de Flujo
+<img width="928" height="745" alt="image" src="https://github.com/user-attachments/assets/2334c0f5-83f5-408a-a87f-deaf32fa2848" />
 
+
+### Condicional Multiple
+#### Pseudocódigo
 ```pseudocodigo
+Si (condición_1) Entonces
+    // Instrucciones 1
+Sino Si (condición_2) Entonces
+    // Instrucciones 2
+Sino
+    // Instrucciones por defecto
+FinSi
 Según (variable) Hacer
     Caso valor_1:
         // Instrucciones 1
@@ -63,6 +78,9 @@ FinSegún
 
 ```
 
+#### Diagrama de Flujo
+<img width="1033" height="401" alt="image" src="https://github.com/user-attachments/assets/f3881b7d-64cd-40c6-aabc-d1106355e3ff" />
+
 
 ## 2. Estructuras Repetitivas
 
@@ -74,9 +92,16 @@ Las estructuras repetitivas (bucles o ciclos) permiten ejecutar un bloque de ins
 2. **Ciclo Hacer-Mientras (`do-while`):** Evalúa la condición al final. Garantiza que el bloque de código se ejecute al menos una vez.
 3. **Ciclo Para (`for`):** Estructura diseñada para repetir un bloque de código un número determinado de veces, integrando inicialización, condición e incremento en una sola línea.
 
-### Estructura en Pseudocódigo
-
-#### Ciclo Mientras
+### Ciclo Mientras
+#### Pseudocódigo
+```pseudocodigo
+Si (condición_1) Entonces
+    // Instrucciones 1
+Sino Si (condición_2) Entonces
+    // Instrucciones 2
+Sino
+    // Instrucciones por defecto
+FinSi
 
 ```pseudocodigo
 Mientras (condición) Hacer
@@ -85,9 +110,12 @@ Mientras (condición) Hacer
 FinMientras
 
 ```
+#### Diagrama de Flujo
+<img width="573" height="541" alt="image" src="https://github.com/user-attachments/assets/9591cabd-dec7-4c1a-849c-beb7928ecbf2" />
 
-#### Ciclo Hacer-Mientras
 
+### Ciclo Hacer-Mientras
+#### Pseudocódigo
 ```pseudocodigo
 Hacer
     // Bloque de instrucciones a repetir
@@ -96,8 +124,12 @@ Mientras (condición)
 
 ```
 
-#### Ciclo Para
+#### Diagrama de Flujo
+<img width="454" height="444" alt="image" src="https://github.com/user-attachments/assets/ae53a4d5-ac8f-488b-b742-e1af4d851988" />
 
+
+### Ciclo Para
+#### Pseudocódigo
 ```pseudocodigo
 Para variable_control <- valor_inicial Hasta valor_final Con Paso incremento Hacer
     // Bloque de instrucciones a repetir
@@ -105,9 +137,9 @@ FinPara
 
 ```
 
-### Estructura en Diagrama de Flujo (draw.io)
+#### Diagrama de Flujo
+<img width="461" height="382" alt="image" src="https://github.com/user-attachments/assets/67de3597-cc84-49f9-aa9e-62a08c4ce45c" />
 
-## *[Espacio reservado para insertar tu Diagrama de Flujo de Estructuras Repetitivas diseñado en draw.io]*
 
 ## 🚀 3. Ejercicio Integrador (Estructura Condicional y Repetitiva en Lenguaje C)
 
