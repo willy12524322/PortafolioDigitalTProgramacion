@@ -1,4 +1,9 @@
-# Portafolio Digital de Aprendizaje - Teoría de la Programación
+<p align="center">
+  <img src="https://unl.edu.ec/sites/default/files/logogris%20copia.png" width="280" alt="Logo UNL"/>
+</p>
+
+<h1 align="center">Portafolio Digital</h1>
+<h2 align="center">Teoría de la Programación</h2>
 
 ## 📑 Carátula
 
