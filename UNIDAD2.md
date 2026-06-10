@@ -90,18 +90,8 @@ Las estructuras repetitivas (bucles o ciclos) permiten ejecutar un bloque de ins
 ### Ciclo Mientras
 #### Pseudocódigo
 ```pseudocodigo
-Si (condición_1) Entonces
-    // Instrucciones 1
-Sino Si (condición_2) Entonces
-    // Instrucciones 2
-Sino
-    // Instrucciones por defecto
-FinSi
-
-```pseudocodigo
 Mientras (condición) Hacer
-    // Bloque de instrucciones a repetir
-    // Modificación de la variable de control
+    // Proceso
 FinMientras
 
 ```
