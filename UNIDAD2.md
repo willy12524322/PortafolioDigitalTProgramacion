@@ -58,23 +58,18 @@ FinSi
 ### Condicional Multiple
 #### Pseudocódigo
 ```pseudocodigo
-Si (condición_1) Entonces
-    // Instrucciones 1
-Sino Si (condición_2) Entonces
-    // Instrucciones 2
-Sino
-    // Instrucciones por defecto
-FinSi
-Según (variable) Hacer
-    Caso valor_1:
-        // Instrucciones 1
-        Interrumpir
-    Caso valor_2:
-        // Instrucciones 2
-        Interrumpir
+Segun variable_opcion Hacer
+    Caso 1:
+        Instrucción 1
+        Instrucción 2
+    Caso 2:
+        Instrucción 3
+        Instrucción 4
+    Caso 3:
+        Instrucción 5
     De Otro Modo:
-        // Instrucciones por defecto
-FinSegún
+        Instrucción 6
+FinSegun
 
 ```
 
