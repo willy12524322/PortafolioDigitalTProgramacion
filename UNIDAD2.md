@@ -165,7 +165,8 @@ El programa debe cumplir con las siguientes **reglas de negocio**:
 
 ### 3.3. Diseño del Algoritmo (Diagrama de Flujo)
 
-> 🗺️ **[Espacio reservado para insertar el Diagrama de Flujo del Ejercicio Integrador diseñado en draw.io]**
+<img width="1258" height="972" alt="Proyecto nuevo" src="https://github.com/user-attachments/assets/b30894bf-c34f-48fc-b175-56a1ab6d5b1a" />
+
 
 ### 3.4. Codificación (Código Fuente en C)
 
