@@ -232,9 +232,9 @@ A continuación se presenta la simulación del comportamiento del algoritmo recr
 
 ### 📝 Reflexión Crítica sobre el Aprendizaje
 
-El estudio y aplicación práctica de las estructuras condicionales y repetitivas constituye la piedra angular del desarrollo de software estructurado y la resolución algorítmica de problemas. Estas estructuras permiten transformar un código estático y lineal en un sistema inteligente, dinámico y capaz de tomar decisiones autónomas basadas en datos en tiempo real.
+El estudio y aplicación práctica de las estructuras condicionales y repetitivas es fundamental para el desarrollo de software y la resolución algorítmica de problemas. Estas estructuras permiten transformar un código estático y lineal en un sistema inteligente, dinámico y capaz de tomar decisiones autónomas basadas en datos en tiempo real.
 
-La integración de herramientas como draw.io para el modelado visual junto con la codificación en lenguaje C ayuda a cerrar la brecha entre el pensamiento conceptual-analítico y la implementación tecnológica rígida. Diseñar un algoritmo robusto nos enseña que la programación no se limita a escribir sintaxis, sino a prever comportamientos, estructurar soluciones eficientes y blindar los sistemas contra fallas mediante validaciones exhaustivas. Este aprendizaje consolida mi perfil técnico al aportarme un enfoque lógico, modular y altamente estructurado para resolver problemas complejos de la ingeniería de software en mi futuro formativo y profesional.
+La integración de herramientas como Photopea para el modelado visual junto con la codificación en lenguaje C ayuda a cerrar la brecha entre el pensamiento conceptual-analítico y la implementación tecnológica rígida. Diseñar un algoritmo nos enseña que la programación no se limita a escribir sintaxis, sino a prever comportamientos, estructurar soluciones eficientes y blindar los sistemas contra fallas mediante validaciones exhaustivas.
 
 ```
 
