@@ -328,12 +328,3 @@ El estudio de la modularidad representa un salto cualitativo en la forma de prog
 
 De igual manera, el manejo de arreglos —tanto unidimensionales como bidimensionales— abre la puerta al procesamiento de datos a gran escala, algo indispensable en prácticamente cualquier aplicación real: desde el manejo de calificaciones de un curso hasta la representación de imágenes o tableros de juego mediante matrices. Combinar ambos conceptos (funciones que reciben arreglos, por ejemplo) sienta las bases para las siguientes unidades del curso, donde la complejidad de los programas seguirá incrementando. En conjunto, esta unidad refuerza la idea de que programar bien no es solo lograr que el código "funcione", sino diseñarlo de forma modular, eficiente y escalable.
 
----
-
-## 📚 Bibliografía de la Unidad
-
-[1] L. Joyanes Aguilar, *Fundamentos de Programación*, 5.ª ed. México: McGraw-Hill, 2020.
-
-[2] J. E. Guerra Salazar, M. V. Ramos Valencia, and G. E. Vallejo Vallejo, *Programando en C desde la práctica: problemas resueltos*. Puerto Madero Editorial, 2023. [En línea]. Disponible: https://dialnet.unirioja.es/servlet/libro?codigo=933288
-
-[3] A. A. Bhuiyan and M. Amiruzzaman, *Programming with Java*, 2nd ed. The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT), 2025. [En línea]. Disponible: https://open.umn.edu/opentextbooks/textbooks/programming-with-java
