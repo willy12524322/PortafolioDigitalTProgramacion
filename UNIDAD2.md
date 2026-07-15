@@ -166,7 +166,9 @@ El programa debe cumplir con las siguientes **reglas de negocio**:
 
 ### 3.3. Diseño del Algoritmo (Diagrama de Flujo)
 
-<img width="1258" height="972" alt="Proyecto nuevo" src="https://github.com/user-attachments/assets/b30894bf-c34f-48fc-b175-56a1ab6d5b1a" />
+
+<img width="1258" height="972" alt="image (10)" src="https://github.com/user-attachments/assets/e0bc9fa7-2363-4e0d-9ac3-cf38c44ddf20" />
+
 
 
 ### 3.4. Codificación (Código Fuente en C)
