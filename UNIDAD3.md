@@ -1,4 +1,4 @@
-<img width="756" height="67" alt="image" src="https://github.com/user-attachments/assets/09bf0e53-5047-45df-a251-2eba13c7c4fc" />
+
 [Regresar](README.md)
 # 📂 Unidad 3: Modularidad y Arreglos
 
@@ -126,7 +126,7 @@ Aquí, `stockActual` sí queda modificado después de llamar a la función, porq
 #### 🖥️ Ejecución del Programa
 <p align="center">
 
-<!-- 📸 PEGA AQUÍ TU CAPTURA: ejecución del programa "aumentarStock" -->
+<img width="756" height="67" alt="image" src="https://github.com/user-attachments/assets/09bf0e53-5047-45df-a251-2eba13c7c4fc" />
 
 </p>
 
