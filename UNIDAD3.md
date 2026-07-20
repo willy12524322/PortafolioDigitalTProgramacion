@@ -1,3 +1,4 @@
+<img width="756" height="67" alt="image" src="https://github.com/user-attachments/assets/09bf0e53-5047-45df-a251-2eba13c7c4fc" />
 [Regresar](README.md)
 # 📂 Unidad 3: Modularidad y Arreglos
 
@@ -74,7 +75,8 @@ Al ejecutar este programa, dentro de `aplicarDescuento` el precio se muestra ya 
 #### 🖥️ Ejecución del Programa
 <p align="center">
 
-<!-- 📸 PEGA AQUÍ TU CAPTURA: ejecución del programa "aplicarDescuento" -->
+<img width="756" height="67" alt="image" src="https://github.com/user-attachments/assets/3e3d443d-5a3c-46fd-aea6-fe50d5bbca17" />
+
 
 </p>
 
