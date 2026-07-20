@@ -126,7 +126,8 @@ Aquí, `stockActual` sí queda modificado después de llamar a la función, porq
 #### 🖥️ Ejecución del Programa
 <p align="center">
 
-<img width="756" height="67" alt="image" src="https://github.com/user-attachments/assets/09bf0e53-5047-45df-a251-2eba13c7c4fc" />
+<img width="723" height="46" alt="image" src="https://github.com/user-attachments/assets/df15a17e-afef-408e-ada6-f2089e3bb6b1" />
+
 
 </p>
 
@@ -183,7 +184,8 @@ int main() {
 #### 🖥️ Ejecución del Programa
 <p align="center">
 
-<!-- 📸 PEGA AQUÍ TU CAPTURA: ejecución del programa de "notas y promedio" -->
+<img width="287" height="153" alt="image" src="https://github.com/user-attachments/assets/91b3a82f-9128-4492-b9f2-16cf4cf1c313" />
+
 
 </p>
 
@@ -248,7 +250,8 @@ int main() {
 #### 🖥️ Ejecución del Programa
 <p align="center">
 
-<!-- 📸 PEGA AQUÍ TU CAPTURA: ejecución del programa de "suma de matrices" -->
+<img width="356" height="177" alt="image" src="https://github.com/user-attachments/assets/daae91da-2574-4ad4-83b0-a02d45e3b587" />
+
 
 </p>
 
@@ -297,7 +300,8 @@ En este ejemplo, `inventario[0][2][1]` representa la cantidad de un producto esp
 #### 🖥️ Ejecución del Programa
 <p align="center">
 
-<!-- 📸 PEGA AQUÍ TU CAPTURA: ejecución del programa de "inventario multidimensional" -->
+<img width="447" height="578" alt="image" src="https://github.com/user-attachments/assets/ffde261c-ac3a-454b-9347-46be39b17879" />
+
 
 </p>
 
@@ -390,7 +394,8 @@ int main() {
 
 <p align="center">
 
-<!-- 📸 PEGA AQUÍ TU CAPTURA: compilación y ejecución del ejercicio integrador (temperaturas) -->
+<img width="383" height="221" alt="image" src="https://github.com/user-attachments/assets/28bdd5ef-e839-45b3-bfca-cf8ecfeee45d" />
+
 
 </p>
 
@@ -411,13 +416,3 @@ int main() {
 El estudio de la modularidad representa un salto cualitativo en la forma de programar: pasar de escribir código lineal y repetitivo a diseñar soluciones organizadas en bloques reutilizables permite construir programas más grandes, ordenados y fáciles de mantener. Entender la diferencia entre el paso de parámetros por valor y por referencia no es solo un detalle técnico, sino un concepto que determina el control real que una función tiene sobre los datos del programa, lo cual es esencial para evitar efectos secundarios no deseados en aplicaciones más complejas.
 
 De igual manera, el manejo de arreglos —unidimensionales, bidimensionales y multidimensionales— abre la puerta al procesamiento de datos a gran escala, algo indispensable en prácticamente cualquier aplicación real: desde el manejo de calificaciones de un curso hasta la representación de imágenes, tableros de juego o inventarios distribuidos en varias bodegas. Desarrollar el ejercicio integrador, combinando funciones que reciben arreglos con estructuras condicionales, permitió comprobar en la práctica cómo estos conceptos se complementan para resolver un problema completo de forma clara y ordenada. En conjunto, esta unidad refuerza la idea de que programar bien no es solo lograr que el código "funcione", sino diseñarlo de forma modular, eficiente y escalable.
-
----
-
-## 📚 Bibliografía de la Unidad
-
-[1] L. Joyanes Aguilar, *Fundamentos de Programación*, 5.ª ed. México: McGraw-Hill, 2020.
-
-[2] J. E. Guerra Salazar, M. V. Ramos Valencia, and G. E. Vallejo Vallejo, *Programando en C desde la práctica: problemas resueltos*. Puerto Madero Editorial, 2023. [En línea]. Disponible: https://dialnet.unirioja.es/servlet/libro?codigo=933288
-
-[3] A. A. Bhuiyan and M. Amiruzzaman, *Programming with Java*, 2nd ed. The Pennsylvania Alliance for Design of Open Textbooks (PA-ADOPT), 2025. [En línea]. Disponible: https://open.umn.edu/opentextbooks/textbooks/programming-with-java
