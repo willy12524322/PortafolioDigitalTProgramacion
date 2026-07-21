@@ -416,3 +416,6 @@ int main() {
 El estudio de la modularidad representa un salto cualitativo en la forma de programar: pasar de escribir código lineal y repetitivo a diseñar soluciones organizadas en bloques reutilizables permite construir programas más grandes, ordenados y fáciles de mantener. Entender la diferencia entre el paso de parámetros por valor y por referencia no es solo un detalle técnico, sino un concepto que determina el control real que una función tiene sobre los datos del programa, lo cual es esencial para evitar efectos secundarios no deseados en aplicaciones más complejas.
 
 De igual manera, el manejo de arreglos —unidimensionales, bidimensionales y multidimensionales— abre la puerta al procesamiento de datos a gran escala, algo indispensable en prácticamente cualquier aplicación real: desde el manejo de calificaciones de un curso hasta la representación de imágenes, tableros de juego o inventarios distribuidos en varias bodegas. Desarrollar el ejercicio integrador, combinando funciones que reciben arreglos con estructuras condicionales, permitió comprobar en la práctica cómo estos conceptos se complementan para resolver un problema completo de forma clara y ordenada. En conjunto, esta unidad refuerza la idea de que programar bien no es solo lograr que el código "funcione", sino diseñarlo de forma modular, eficiente y escalable.
+
+
+[Regresar](README.md)
