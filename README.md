@@ -40,7 +40,7 @@ Seleccione una unidad para explorar las actividades prácticas, códigos fuentes
 
 El desarrollo de este portafolio digital permitió recorrer de manera progresiva los pilares fundamentales de la Teoría de la Programación, evidenciando cómo cada unidad se construye sobre la anterior para consolidar un pensamiento algorítmico cada vez más sólido.
 
-En la Unidad 1 se sentaron las bases del razonamiento lógico-computacional: la construcción de algoritmos precisos y finitos, su representación mediante pseudocódigo y diagramas de flujo con simbología ISO, y la validación de su correcto funcionamiento a través de pruebas de escritorio. Este punto de partida resultó esencial para transitar, sin perder rigor lógico, hacia la sintaxis estricta del lenguaje C.
+En la Unidad 1 se sentaron las bases del razonamiento lógico-computacional: la construcción de algoritmos precisos y finitos, su representación mediante pseudocódigo y diagramas de flujo, y la validación de su correcto funcionamiento a través de pruebas de escritorio. Este punto de partida resultó esencial para transitar, sin perder rigor lógico, hacia la sintaxis estricta del lenguaje C.
 
 La Unidad 2 introdujo la capacidad de que los programas tomen decisiones y repitan procesos, mediante estructuras condicionales (simples, compuestas, anidadas y múltiples) y estructuras repetitivas (while, do-while, for). El ejercicio integrador de control de acceso demostró cómo la combinación de condiciones lógicas compuestas y ciclos permite modelar comportamientos dinámicos y validaciones propias de sistemas reales.
 
